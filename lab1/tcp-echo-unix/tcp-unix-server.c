@@ -32,10 +32,6 @@ int main() {
 		return -1;
 	}	
 
-	bzero (&unix_server_addr, sizeof (unix_server_addr));
-	sock_length = sizeof (unix_server_addr);
-	getsockname (sockfd, (struct sockaddr *) &unix_server_addr, &sock_length);
-
 	listen (sockfd, 5);
 
 	clientfd = accept (sockfd, (struct sockaddr *) &unix_client_addr, &sock_length);

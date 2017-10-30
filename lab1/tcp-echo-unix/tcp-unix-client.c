@@ -25,7 +25,6 @@ int main() {
 	bzero (&unix_client_addr, sizeof (unix_client_addr));
 
 	unix_server_addr.sun_family = AF_LOCAL;
-	unlink (path_unix);
 	strncpy (unix_server_addr.sun_path, path_unix, sizeof (unix_server_addr.sun_path)-1);
 
 	if ( connect (sockfd, (struct sockaddr *) &unix_server_addr, addrlen) < 0) {
