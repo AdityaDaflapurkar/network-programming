@@ -7,5 +7,5 @@ This repository contains lab assigniments from the course Computer Networks(CS F
   - An echo client-server program to work with TCP sockets such that the server waits for any number of client requests.
 
 ## Lab 2 : DNS and Concurrent Server
-  - DNS-wiki program to get socket address information for a given hostname
-  - A concurrent TCP echo server program implemented using fork() system call
+  - DNS-wiki program to get socket address information for a given node.
+  - A concurrent TCP echo server program for simultaneously handling requests from multiple clients. 
