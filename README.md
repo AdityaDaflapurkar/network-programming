@@ -1,5 +1,5 @@
 # Network Programming
-This repository contains lab assigniments from the course Computer Networks(CS F303) at BITS Pilani Goa Campus. The problem statements for each assignment are as follows:
+This repository contains lab assignments from the course Computer Networks(CS F303) at BITS Pilani Goa Campus. The problem statements for each assignment are as follows:
   
   ## Lab 1 : Socket Programming
   - A simple client-server program using TCP sockets such that : The client sends a string to the server. The server returns whether it is a palindrome or not.
