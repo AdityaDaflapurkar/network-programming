@@ -11,5 +11,5 @@ This repository contains lab assignments from the course Computer Networks(CS F3
   - A concurrent TCP echo server program for simultaneously handling requests from multiple clients.
   
   ## Lab 3 : HTTP Protocol
-  - A simple HTTP server which can handle requests from web browser to return corresponding html page as response.
+  - A simple HTTP server which can handle HTTP GET requests from web browser to return corresponding html page as response.
   - HTTP client program to interact with the server.
